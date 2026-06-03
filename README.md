@@ -1,9 +1,9 @@
 <div align="center">
   <h2>
     <img src="https://cdn.nodeimage.com/i/NXz3ah3zTwikq3AdQOU0dYw3uyaBiGVj.webp" width="40" height="40" style="vertical-align: middle;"/> 
-    nodejs-argo隧道代理
+    no-aoy隧道
   </h2>
-  nodejs-argo是一个强大的Argo隧道部署工具，专为PaaS平台和游戏玩具平台设计。它支持多种代理协议（VLESS、VMess、Trojan等），并集成了哪吒探针功能。
+  no-aoy是一个强大的A隧道部署工具，专为P平台和游戏玩具平台设计。它支持多种代理协议（VL、VM、Tr等），并集成了哪吒探针功能。
 
 ---
 
@@ -19,8 +19,8 @@ Telegram交流反馈群组：https://t.me/eooceu
 
 ## 说明 （部署前请仔细阅读）
 
-* 本项目是针对node环境的paas平台和游戏玩具而生，采用Argo隧道部署节点，集成哪吒探针v0或v1可选。
-* node玩具平台只需上传index.js和package.json即可，paas平台需要docker部署的才上传Dockerfile。
+* 本项目是针对n环境的p平台和游戏玩具而生，采用A隧道部署，集成哪吒探针v0或v1可选。
+* n玩具平台只需上传index.js和package.json即可，paas平台需要docker部署的才上传Dockerfile。
 * 不填写ARGO_DOMAIN和ARGO_AUTH两个变量即启用临时隧道，反之则使用固定隧道。
 * 哪吒v0/v1可选,当哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时，自动开启tls。
 
@@ -39,9 +39,9 @@ Telegram交流反馈群组：https://t.me/eooceu
 | NEZHA_KEY | 否 | - | 哪吒密钥 |
 | ARGO_DOMAIN | 否 | - | Argo固定隧道域名 |
 | ARGO_AUTH | 否 | - | Argo固定隧道密钥 |
-| CFIP | 否 | www.visa.com.tw | 节点优选域名或IP |
-| CFPORT | 否 | 443 | 节点端口 |
-| NAME | 否 | Vls | 节点名称前缀 |
+| CFIP | 否 | www.visa.com.tw | 优选域名或IP |
+| CFPORT | 否 | 443 | 点端口 |
+| NAME | 否 | Vls | 点名称前缀 |
 | FILE_PATH | 否 | ./tmp | 运行目录 |
 | SUB_PATH | 否 | sub | 订阅路径 |
 
